@@ -18,7 +18,12 @@
 
 ## ````Comandos de Git````
 
-    git init = Inicia git
-    git add . = Añade todos los archivos de la carpeta
-    git commit -m "mensaje" = Permite crear un git
-    git push = 'Envía los archivos a github'
+    'git init' = Inicia git
+
+    'git add .' = Añade todos los archivos de la carpeta
+
+    'git commit' -m "mensaje" = Permite crear un git
+    
+    'git push' = 'Envía los archivos a github'
+
+    Hola compañeros de clase, esto es una prueba con git
