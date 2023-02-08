@@ -25,3 +25,10 @@
     'git commit' -m "mensaje" = Permite crear un git
 
     'git push' = 'Envía los archivos a github'
+
+
+## ````Buenas prácticas de python````
+
+    Especificar el tipo de dato:
+      *variable : tipo de dato valor
+      *x : int = 5
