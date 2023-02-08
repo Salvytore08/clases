@@ -26,7 +26,7 @@
 
     'git push' = 'Envía los archivos a github'
 
-
+# ````Clase 2 \\ 07/02/23````
 ## ````Buenas prácticas de python````
 
     Especificar el tipo de dato:
