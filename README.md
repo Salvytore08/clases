@@ -30,5 +30,16 @@
 ## ````Buenas prácticas de python````
 
     Especificar el tipo de dato:
-      *variable : tipo de dato valor
-      *x : int = 5
+        variable : tipo de dato valor
+        x : int = 5
+
+        def rec(
+            a:float,
+            b:float
+        ) -> float:
+            return a*b 
+
+    Comentarios:
+        """
+         ~Texto~
+        """
