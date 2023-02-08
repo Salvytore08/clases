@@ -45,17 +45,3 @@ def rec(
     área = a*b
     return área
 
-
-
-a = float(input('Por favor ingrese la altura del rectángulo: '))
-b = float(input('Por favor ingrese la base del rectángulo: '))
-
-print(f'El área del rectángulo es de {rec(a,b)}')
-
-x1 = float(input('Por favor ingrese x1: '))
-x2 = float(input('Por favor ingrese x2: '))  
-
-y1 = float(input('Por favor ingrese y1: '))
-y2 = float(input('Por favor ingrese y2: '))
-
-print(f'La distancia es de {dis(x1,x2,y1,y2)}')
