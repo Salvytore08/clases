@@ -1,6 +1,6 @@
 import math
 
-def dis(
+def distancia(
     x1:float,
     x2:float,
     y1:float,
@@ -28,7 +28,7 @@ def dis(
     d = math.sqrt(x+y)
     return d
 
-def rec(
+def rectángulo(
     a:float,
     b:float
 ) -> float:
