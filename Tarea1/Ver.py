@@ -9,6 +9,6 @@ def ver(
     ~Parámetros~
      dict = Diccionario
     """
-    a = str(input('Por favor ingrese el usuario que desea ver: '))
+    a = str(input('\nPor favor ingrese el usuario que desea ver: '))
     print(f'{a} : {dict[a]}')
     time.sleep(1.2)

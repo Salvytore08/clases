@@ -8,7 +8,7 @@ def crear(
     ~Parámetros~
      dict = Diccionario
     """
-    nom = str(input('Por favor ingrese su nombre: '))
+    nom = str(input('\nPor favor ingrese su nombre: '))
     lib = str(input('Por favor ingrese el libro que desea pedir: '))
     dict.update({nom:lib})
     time.sleep(1.2)

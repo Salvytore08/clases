@@ -1,4 +1,4 @@
-import time
+
 
 def menu():
     """
@@ -10,4 +10,3 @@ def menu():
     print('3. Actualizar')
     print('4. Ver')
     print('5. Salir (0)')
-    time.sleep(1.2)

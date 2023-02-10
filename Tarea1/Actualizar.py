@@ -9,8 +9,8 @@ def actualizar(
     ~Parámetros~
      dict = Diccionario
     """
-    a = str(input('Por favor ingrese el nombre del usuario que desea acualizar: '))
-    if a in dict:
+    a = str(input('\nPor favor ingrese el nombre del usuario que desea acualizar: '))
+    if a.lower() in dict:
         b = str(input('¿Seguro que quiere actualizar el usuario? (Si o No): '))
         if b.lower() == 'si':
             nom = str(input('Por favor ingrese el nuevo nombre: '))
