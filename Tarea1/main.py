@@ -1,0 +1,3 @@
+import programa
+
+programa.programa()

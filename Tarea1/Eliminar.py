@@ -17,3 +17,6 @@ def eliminar(
         else:
             print('Puede salir')
             time.sleep(1.2)
+    else:
+        print('El usuario no está disponible')
+        time.sleep(1.2)
