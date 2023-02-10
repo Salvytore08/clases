@@ -1,3 +1,3 @@
-import programa
+from funciones import programa
 
 programa.programa()
