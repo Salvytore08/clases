@@ -10,5 +10,6 @@ def ver(
      dict = Diccionario
     """
     a = str(input('\nPor favor ingrese el usuario que desea ver: '))
-    print(f'{a} : {dict[a]}')
+    b = a.lower()
+    print(f'{b} : {dict[b]}')
     time.sleep(1.2)
