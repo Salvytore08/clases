@@ -33,3 +33,6 @@ def programa():
             case 5:
                 print('Puede salir')
                 break
+            case _:
+                print('Opción no válida')
+                time.sleep(1.2)
