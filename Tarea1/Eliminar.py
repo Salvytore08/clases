@@ -11,6 +11,7 @@ def eliminar(
     """
     a = str(input('Por favor ingrese el nombre del usuario que desea eliminar: '))
     if a in dict:
+        print(f'{a} : {dict[a]}')
         b = str(input('¿Seguro que quiere eliminar el usuario? (Si o No): '))
         if b.lower() == 'si':
             dict.pop(a)
