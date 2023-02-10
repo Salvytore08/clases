@@ -11,3 +11,4 @@ def ver(
     """
     a = str(input('Por favor ingrese el usuario que desea ver: '))
     print(f'{a} : {dict[a]}')
+    time.sleep(1.2)
