@@ -10,5 +10,4 @@ def ver(
      dict = Diccionario
     """
     a = str(input('Por favor ingrese el usuario que desea ver: '))
-    for a in dict:
-        print(f'{a} : {dict[a]}')
+    print(f'{a} : {dict[a]}')
