@@ -9,4 +9,4 @@ def menu():
     print('2. Eliminar')
     print('3. Actualizar')
     print('4. Ver')
-    print('5. Salir (0)')
+    print('5. Salir')

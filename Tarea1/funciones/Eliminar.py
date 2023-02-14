@@ -12,6 +12,7 @@ try:
         a = str(input('\nPor favor ingrese el nombre del usuario que desea eliminar: '))
         if a.lower() in dict:
             print(f'{a} : {dict[a]}')
+            time.sleep(1.2)
             b = str(input('¿Seguro que quiere eliminar el usuario? (Si o No): '))
             if b.lower() == 'si':
                 dict.pop(a)

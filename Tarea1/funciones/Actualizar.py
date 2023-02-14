@@ -9,14 +9,13 @@ try:
         ~Parámetros~
         dict = Diccionario
         """
-        nom = str(input('\nPor favor ingrese el nombre del usuario que desea acualizar: '))
-        if nom.lower() in dict:
+        a = str(input('\nPor favor ingrese el nombre del usuario que desea acualizar: '))
+        if a.lower() in dict:
+            print(f'{a} : {dict[a]}')
             b = str(input('¿Seguro que quiere actualizar el usuario? (Si o No): '))
             if b.lower() == 'si':
                 nom = str(input('Por favor ingrese el nuevo nombre: '))
                 lib = str(input('Por favor ingrese el nuevo libro que desea pedir: '))
-                nom = nom.lower()
-                lib = lib.lower()
                 dict.update({nom:lib})
             else:
                 print('Puede salir')
