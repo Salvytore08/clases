@@ -6,4 +6,4 @@ def añadir(lista1,lista2,lista3='si'):
     lista.append(lista3)
     print(lista)
     
-añadir(profesores,estudiantes)
+añadir(profesores,estudiantes,'Hola')

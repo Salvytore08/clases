@@ -12,3 +12,5 @@
     - Los parámetros predefinidos deben ir al final 
 
     - Los parámetros se pueden ingresar desde el exterior o se pueden definir dentro de la función
+
+    - Los parámetros predefinidos son opcionales, en caso de darlos se utilizan, en caso contrario se utiliza el valor original
