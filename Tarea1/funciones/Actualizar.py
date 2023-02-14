@@ -16,6 +16,8 @@ try:
             if b.lower() == 'si':
                 nom = str(input('Por favor ingrese el nuevo nombre: '))
                 lib = str(input('Por favor ingrese el nuevo libro que desea pedir: '))
+                nom = nom.lower()
+                lib = lib.lower()
                 dict.update({nom:lib})
             else:
                 print('Puede salir')
