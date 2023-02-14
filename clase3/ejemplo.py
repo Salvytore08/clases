@@ -1,4 +1,4 @@
-def funcion_ejemplo(a,b):
+def funcion_ejemplo(a,b,c=5):
     #lógica
     suma = a + b
     #retorno
