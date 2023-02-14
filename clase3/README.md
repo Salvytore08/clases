@@ -11,4 +11,4 @@
 
     - Los parámetros predefinidos deben ir al final 
 
-    - Los parámetros se puden ingresar desde el exterior o se pueden definir dentro de la función
+    - Los parámetros se pueden ingresar desde el exterior o se pueden definir dentro de la función
