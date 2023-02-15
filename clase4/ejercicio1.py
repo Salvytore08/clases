@@ -6,7 +6,7 @@ def añadir(lista:list) -> list:
         b = str(input('Por favor ingrese una palabra: '))
         lista.append(b)
     print(lista)
-
+    
 def eliminar(lista:list) -> list:
     a = int(input('¿Cuántas palabras desea eliminar?: '))
     for i in range(a):
