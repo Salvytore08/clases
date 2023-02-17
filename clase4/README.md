@@ -2,3 +2,4 @@
 ## ````TEMAS````
 ---
     - LISTAS
+    - FUNCIONES
